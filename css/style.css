@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans.eot');
+    src: url('../fonts/OpenSans.eot') format('embedded-opentype'),
+    url('../fonts/OpenSans.woff2') format('woff2'),
+    url('../fonts/OpenSans.woff') format('woff'),
+    url('../fonts/OpenSans.ttf') format('truetype'),
+    url('../fonts/OpenSans.svg#OpenSans') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    height: 100%;
+    background-image: url("../images/bg.png");
+    background-position: center top ;
+    background-size: contain;
+    background-repeat: repeat-y ;
+    }
+header{
+    background-image: url("../images/header-bg.png");
+    background-repeat: repeat-x ;
+    height: 154px;
+    border-bottom: solid 16px white;
+}
+.container{
+    max-width: 975px;
+    margin: auto;
+}
+.white-bottom{
+    padding-bottom: 16px;
+    background-color: white;
+    }
+
+.white-bg{
+    max-width: 975px;
+    margin: auto;
+    background-color: white;
+    color: #474747;
+    font-size: 12px;
+    padding: 21 10 10 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'OpenSans';
+    font-size: 18pt;
+    text-transform: uppercase;
+    color: #ebc738;
+    padding-top: 51px;
+    padding-bottom: 14px;
+    line-height: 50px;
+
+
+}
+
+.sign{
+    background-color: red;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
